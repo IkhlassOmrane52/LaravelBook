@@ -23,7 +23,7 @@ Route::post('book', [BookController::class, 'createBook']);
 Route::put('books/{id}', [BookController::class, 'updateBook']);
 Route::delete('books/{id}',[BookController::class, 'deleteBook']);
 
-Route::get('booksType', [BookController::class, 'getAllBooksType']);
+Route::get('booksType', [BookController::class, 'getAllTypesbook']);
 Route::get('bookType/{id}', [BookController::class, 'getBook']);
 Route::post('bookType', [BookController::class, 'createBookType']);
 Route::put('bookType/{id}', [BookController::class, 'updateBookType']);
